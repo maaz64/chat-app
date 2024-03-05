@@ -13,7 +13,7 @@ const Chat = () => {
     <div className="chat">
       <div className="chatInfo">
         <div className="userProfile">
-        <img src={data.user?.photoURL} alt="" />
+        {data.user?.photoURL? <img src={data.user?.photoURL} alt="" /> : null}
         <span>{data.user?.displayName}</span>
         </div>
         

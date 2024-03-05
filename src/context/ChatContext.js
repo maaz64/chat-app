@@ -5,6 +5,8 @@ import {
 } from "react";
 import { AuthContext } from "./AuthContext";
 
+
+// creating chat context
 export const ChatContext = createContext();
 
 export const ChatContextProvider = ({ children }) => {
