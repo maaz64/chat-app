@@ -22,7 +22,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/chat-app">
+        <Route path="/">
           <Route
             index
             element={
